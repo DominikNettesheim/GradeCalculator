@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<table cellpadding="25">
+    <tr>
+        <td id = "hw">
+            <input type="text" value="90,87,60" id="hwGrade" placeholder="Homework Grades (ex: 94,85,79)" size="30"><br>
+            <input type="text" id="hwWeight" value="15" placeholder="Homework Weight (ex: 25)" size="30"><br>
+        </td>
+        <td id = "quiz">
+            <input type="text" value="95,79,98" id="quizGrade" placeholder="Quiz Grades (ex: 94,85,79)" size="30"><br>
+            <input type="text" value="20" id="quizWeight" placeholder="Quiz Weight (ex: 20)" size="30"><br>
+
+        </td>
+        <td>
+            <div id="A">Green = A(>90%)</div>
+            <div id="B">Yellow = B(>80%)</div>
+            <div id="C">Orange = C(>70%)</div>
+            <div id="D">Red = D(>60%)</div>
+            <div id="F">Pink = F(<60%)</div>
+        </td>
+
+    </tr>
+
+    <tr>
+        <td id = "test">
+            <input type="text" value="100,87,93" id="testGrade" placeholder="Test Grades (ex: 94,85,79)" size="30"><br>
+            <input type="text" value="25" id="testWeight" placeholder="Test Weight (ex: 25)" size="30"><br>
+
+        </td>
+
+        <td id = "midterm">
+            <input type="text" value="95,89" id="midtermGrade" placeholder="Midterm Grade (ex: 87)" size="30"><br>
+            <input type="text" value="20" id="midtermWeight" placeholder="Midterm Weight (ex: 30)" size="30"><br>
+
+        </td>
+
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+            <button id="calculateGrade" onclick="currentGrade()">Calculate Current Grade</button>
+        <td>
+    </tr>
+</table>
+<div id="totalGrade"></div>
+<table>
+    <tr>
+        <td>
+            <label for="desiredGrade"></label><select id="desiredGrade">
+            <option value=90>A(90%)</option>
+            <option value=80>B(80%)</option>
+            <option value=70>C(70%)</option>
+            <option value=60>D(60%)</option>
+        </select>
+            <input type="text" value="20" id="finalWeight" placeholder="Final Weight (Total Weights Must add Up To 100)" size="45"><br>
+
+        <td>
+    </tr>
+</table>
+<table>
+    <button id="finalGradeNeeded" onclick="requiredGrade()">What Do I Need To Get On My Final?</button>
+</table>
+<div id="requiredGrade"></div>
+</body>
+</html>

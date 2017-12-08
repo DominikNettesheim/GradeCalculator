@@ -1,0 +1,133 @@
+body{
+    background-image: url(https://n6-img-fp.akamaized.net/free-photo/school-chalkboard-for-background-copy-space_1249-262.jpg?size=338&ext=jpg);
+    text-align: center;
+}
+table{
+    position: relative;
+    margin: auto;
+}
+#hwGrade{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#hwWeight{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#quizGrade{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#quizWeight{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#testGrade{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#testWeight{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#midtermGrade{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#midtermWeight{
+    font-size: xx-large;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#calculateGrade{
+    font-size: large;
+    border: ridge;
+    border-color: indianred;
+    background-color: darkseagreen;
+    color: dimgrey;
+    font-family: "Lucida Blackletter", serif;
+    text-align: center;
+}
+#totalGrade{
+    font-size: x-large;
+    color: dodgerblue;
+    font-family: "Lucida Blackletter", serif;
+}
+#desiredGrade{
+    font-size: x-large;
+    text-align: center;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    color: dimgrey;
+    font-family: "Lucida Blackletter", serif;
+}
+#finalWeight{
+    font-size: x-large;
+    text-align: center;
+    border: ridge;
+    border-color: lightseagreen;
+    background-color: darkseagreen;
+    font-family: "Lucida Blackletter", serif;
+    color: dimgrey;
+}
+#finalGradeNeeded{
+    font-size: large;
+    border: ridge;
+    border-color: indianred;
+    background-color: darkseagreen;
+    color: dimgrey;
+    font-family: "Lucida Blackletter", serif;
+    text-align: center;
+}
+#requiredGrade{
+    font-size: x-large;
+    color: dodgerblue;
+    font-family: "Lucida Blackletter", serif;
+}
+#A{
+    background-color: green;
+}
+#B{
+    background-color: yellow;
+}
+#C{
+    background-color: orange;
+}
+#D{
+    background-color: red;
+}
+#F{
+    background-color: pink;
+}
